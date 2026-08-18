@@ -156,7 +156,7 @@ def ai_analyze(title, description, deadline):
 # ---------------------- SIDEBAR ----------------------------
 st.sidebar.markdown(
     '<div style="font-size:27px;font-weight:800">CampusAI</div>'
-    '<div style="font-size:12px;color:#b9c6df!important">Palpal • Frontend / UI</div>',
+    '<div style="font-size:12px;color:#b9c6df!important"></div>',
     unsafe_allow_html=True
 )
 st.sidebar.markdown("---")
