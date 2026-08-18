@@ -6,7 +6,6 @@ import json, html, re
 
 # ==========================================================
 # CAMPUSAI — FULL FLEDGED FRONTEND PROTOTYPE
-# Palpal: Python + Streamlit + HTML/CSS + UI Design
 # ==========================================================
 
 st.set_page_config(
@@ -165,12 +164,7 @@ page=st.sidebar.radio("Navigation",[
     "Dashboard","Create Notice","Manage Notices","Students",
     "Student Portal","Opportunities","Analytics","Activity Log","Settings"
 ])
-st.sidebar.markdown("---")
-st.sidebar.markdown("**My contribution**")
-st.sidebar.caption("Python")
-st.sidebar.caption("Streamlit")
-st.sidebar.caption("HTML/CSS")
-st.sidebar.caption("UI Design")
+
 
 # ==========================================================
 # DASHBOARD
