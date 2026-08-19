@@ -400,4 +400,4 @@ else:
         payload={"notices":st.session_state.notices,"students":st.session_state.students,"opportunities":st.session_state.opportunities}
         st.download_button("Download JSON",json.dumps(payload,indent=2),"campusai_data.json","application/json")
 
-st.markdown('<div class="footer">CampusAI • Palpal — Python + Streamlit + HTML/CSS + UI Design • Frontend Prototype</div>',unsafe_allow_html=True)
+st.markdown('<div class="footer">CampusAI — Python + Streamlit + HTML/CSS + UI Design • Frontend Prototype</div>',unsafe_allow_html=True)
